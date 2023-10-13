@@ -2,7 +2,7 @@
   "name": "pro-start-extension-bundle",
   "displayName": "Pro Start Extension Bundle",
   "description": "This extension pack packages some of the most popular (and some of my favorite) VS Code extensions. It will help you to setup a new project with all the required extensions. Either its a ReactJS project or a NodeJS project, this extension pack will help you to setup your project in no time.",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "publisher": "shekhardtu",
   "engines": {
     "vscode": "^1.21.0"
@@ -12,11 +12,41 @@
     "Extension Packs"
   ],
   "keywords": [
-    "reactjs",
-    "reactjs workbox",
-    "reactjs extensions pack",
-    "reactjs plugin pack",
-    "react extensions pack"
+    "extension",
+    "extension-pack",
+    "react",
+    "node",
+    "npm",
+    "javascript",
+    "js",
+    "typescript",
+    "ts",
+    "lint",
+    "linting",
+    "format",
+    "formatting",
+    "theme",
+    "color",
+    "colors",
+    "dark",
+    "debugger",
+    "debug",
+    "git",
+    "github",
+    "markdown",
+    "snippet",
+    "snippets",
+    "html",
+    "css",
+    "scss",
+    "json",
+    "yaml",
+    "xml",
+    "code",
+    "spell",
+    "spell-checker",
+    "spellcheck",
+    "spellchecker"
   ],
   "qna": "marketplace",
   "extensionDependencies": [
@@ -33,8 +63,8 @@
     "whizkydee.material-palenight-theme",
     "GitHub.copilot",
     "GitHub.copilot-chat",
-    "formulahendry.code-runner"
-
+    "formulahendry.code-runner",
+    "redhat.vscode-yaml"
   ],
   "license": "https://github.com/shekhardtu/pro-start/blob/master/LICENSE",
   "homepage": "https://github.com/shekhardtu/pro-start/blob/master/README.md",
@@ -43,9 +73,13 @@
     "email": "shekhardtu@gmail.com"
   },
   "scripts": {
+    "package": "vsce package",
+    "publish": "vsce publish",
+    "make": "git add . && git commit -m '📦 [RELEASE] - v%s' && git push && git push --tags",
     "release:major": "npm version major -m '📦 [RELEASE:MAJOR] - v%s' && git push && git push --tags",
     "release:minor": "npm version minor -m '📦 [RELEASE:MINOR] - v%s' && git push && git push --tags",
     "release:patch": "npm version patch -m '📦 [RELEASE:PATCH] - v%s' && git push && git push --tags"
+
   },
   "repository": {
     "type": "git",
