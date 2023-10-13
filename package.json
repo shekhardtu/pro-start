@@ -2,7 +2,7 @@
   "name": "pro-start-extension-bundle",
   "displayName": "Pro Start Extension Bundle",
   "description": "This extension pack packages some of the most popular (and some of my favorite) VS Code extensions. It will help you to setup a new project with all the required extensions. Either its a ReactJS project or a NodeJS project, this extension pack will help you to setup your project in no time.",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "publisher": "shekhardtu",
   "engines": {
     "vscode": "^1.21.0"
