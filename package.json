@@ -75,7 +75,7 @@
   "scripts": {
     "package": "vsce package",
     "publish": "vsce publish",
-    "make": "git add . && git commit -m '📦 [RELEASE] - v%s' && git push && git push --tags && npm run release:patch",
+    "make": "git add . && git commit -m '📦 [RELEASE] - v%s' && git push && git push --tags && npm run release:patch && npm run package && npm run publish",
     "release:major": "npm version major -m '📦 [RELEASE:MAJOR] - v%s' && git push && git push --tags",
     "release:minor": "npm version minor -m '📦 [RELEASE:MINOR] - v%s' && git push && git push --tags",
     "release:patch": "npm version patch -m '📦 [RELEASE:PATCH] - v%s' && git push && git push --tags"
