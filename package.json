@@ -51,7 +51,6 @@
   "qna": "marketplace",
   "extensionDependencies": [
     "christian-kohler.npm-intellisense",
-    "eg2.vscode-npm-script",
     "streetsidesoftware.code-spell-checker",
     "christian-kohler.path-intellisense",
     "DavidAnson.vscode-markdownlint",
