@@ -1,0 +1,54 @@
+{
+  "name": "pro-start-extension-bundle",
+  "displayName": "Pro Start Extension Bundle",
+  "description": "This extension pack packages some of the most popular (and some of my favorite) VS Code extensions. It will help you to setup a new project with all the required extensions. Either its a ReactJS project or a NodeJS project, this extension pack will help you to setup your project in no time.",
+  "version": "1.0.5",
+  "publisher": "shekhardtu",
+  "engines": {
+    "vscode": "^1.21.0"
+  },
+  "icon": "images/icon.png",
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "reactjs",
+    "reactjs workbox",
+    "reactjs extensions pack",
+    "reactjs plugin pack",
+    "react extensions pack"
+  ],
+  "qna": "marketplace",
+  "extensionDependencies": [
+    "christian-kohler.npm-intellisense",
+    "eg2.vscode-npm-script",
+    "streetsidesoftware.code-spell-checker",
+    "christian-kohler.path-intellisense",
+    "DavidAnson.vscode-markdownlint",
+    "aaron-bond.better-comments",
+    "formulahendry.auto-rename-tag",
+    "wix.vscode-import-cost",
+    "eamodio.gitlens",
+    "robertohuertasm.vscode-icons",
+    "whizkydee.material-palenight-theme",
+    "GitHub.copilot",
+    "GitHub.copilot-chat",
+    "formulahendry.code-runner"
+
+  ],
+  "license": "https://github.com/shekhardtu/pro-start/blob/master/LICENSE",
+  "homepage": "https://github.com/shekhardtu/pro-start/blob/master/README.md",
+  "bugs": {
+    "url": "https://github.com/shekhardtu/pro-start/pulls",
+    "email": "shekhardtu@gmail.com"
+  },
+  "scripts": {
+    "release:major": "npm version major -m '📦 [RELEASE:MAJOR] - v%s' && git push && git push --tags",
+    "release:minor": "npm version minor -m '📦 [RELEASE:MINOR] - v%s' && git push && git push --tags",
+    "release:patch": "npm version patch -m '📦 [RELEASE:PATCH] - v%s' && git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shekhardtu/pro-start"
+  }
+}
