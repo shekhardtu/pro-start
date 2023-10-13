@@ -2,7 +2,7 @@
 
 ![Pro Start Extension Bundle Icon](images/icon.png)
 
-**Version:** 1.0.8  
+**Version:** 1.0.10  
 **Publisher:** shekhardtu  
 **Visual Studio Code Version:** ^1.21.0  
 
